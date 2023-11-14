@@ -312,19 +312,18 @@ footer p {
         font-size: 2rem;
         font-weight: 600;
         margin-left: 5vw;
-        position: relative;
+        margin-top: 10vh;
         top: 50vh;
     }
     #img1 p {
         font-size: 1.3rem;
         font-weight: 600;
         margin-left: 5vw;
-        position: relative;
         top: 50vh;
     }
 
     .titulo-fundo-branco {
-        margin-top: 20% !important;
+        margin-top: 80% !important;
     }
 }
 
@@ -333,14 +332,13 @@ footer p {
         font-size: 2rem;
         font-weight: 600;
         margin-left: 5vw;
-        position: relative;
+        margin-top: 10vh;
         top: 40vh;
     }
     #img1 p {
         font-size: 1.3rem;
         font-weight: 600;
         margin-left: 5vw;
-        position: relative;
         top: 40vh;
     }
 }
