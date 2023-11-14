@@ -270,7 +270,7 @@ footer p {
 @media (max-width: 768px) {
     #img1 {
         background-attachment: scroll;
-        background-image: url(../img/background.jpg);
+        background-image: url(../img/background2.png);
         background-position: center center;
         background-repeat: no-repeat;
         background-size: cover;
