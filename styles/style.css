@@ -1,0 +1,346 @@
+@import url("https://fonts.googleapis.com/css2?family=Oswald:wght@200&display=swap");
+
+html,
+body {
+    font-family: "Oswald", sans-serif;
+    font-size: 1.2rem;
+    margin: 0;
+    padding: 0;
+}
+
+a {
+    color: #784442;
+    font-weight: 600;
+    text-decoration: none;
+}
+
+a:hover {
+    color: #2da1d7;
+}
+
+.navbar {
+    background-color: #ffffff !important;
+    font-size: 1.3rem;
+    width: 100%;
+}
+
+.nav-link {
+    color: #784442 !important;
+    cursor: pointer;
+}
+
+nav {
+    margin-right: 10px;
+}
+
+#navbarTogglerDemo02 ul {
+    margin-left: auto;
+    margin-right: 0px !important;
+}
+
+#foto-principal {
+    background-position: center;
+    height: 100vh;
+    object-fit: cover;
+    object-position: 100% 0;
+    width: 100vw;
+}
+
+.imagem1 {
+    background-color: #000000;
+    color: #4a2929;
+}
+
+#img1 {
+    background-attachment: fixed;
+    background-image: url(../img/background2.png);
+    background-position: right center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+}
+
+#img1 h1 {
+    font-size: 3rem;
+    font-weight: 600;
+    margin-left: 4vw;
+    padding-top: 9%;
+}
+
+#img1 p {
+    font-size: 1.3rem;
+    font-weight: 600;
+    margin-left: 4vw;
+}
+
+#texto-imagem {
+    margin-left: 50%;
+}
+
+.secao {
+    padding: 30px 50px;
+}
+
+.titulo-fundo-branco {
+    color: #784442;
+    margin-left: 5vw;
+    margin-top: 5%;
+}
+
+#sobre {
+    margin-left: 1.5vw;
+    width: 90vw;
+}
+
+#sobre .conteudo p {
+    text-align: justify;
+}
+
+.sobre-h3 {
+    color: #784442;
+    font-weight: 600;
+    margin-bottom: 0.7rem;
+    text-align: left;
+}
+
+.conteudo {
+    margin-top: 25px;
+    text-align: center;
+}
+
+#publico-alvo {
+    padding: 0;
+    text-align: left;
+}
+
+#publico-alvo li {
+    font-weight: normal;
+    margin-left: 0;
+}
+
+#topicos {
+    display: flex;
+    flex-wrap: wrap;
+    font-size: 1.3rem;
+    justify-content: space-evenly;
+}
+
+li {
+    font-weight: 600;
+    list-style: none;
+    margin: 10px;
+}
+
+.item {
+    font-weight: 400;
+}
+
+#local {
+    background-image: linear-gradient(rgba(25, 66, 154, 0.87), rgba(11, 83, 159, 0.676), rgba(121, 159, 199, 0.862));
+    color: white;
+}
+
+#conteudo-local {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 35px;
+    padding: 0;
+}
+
+#imagem-local {
+    border-radius: 10px;
+    box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.5);
+    object-fit: cover;
+    width: 35vw;
+}
+
+#local iframe {
+    border-radius: 10px;
+    height: 55vh;
+    width: 35vw;
+}
+
+#programacao {
+    background-image: linear-gradient(rgba(25, 66, 154, 0.87), rgba(11, 83, 159, 0.676), rgba(121, 159, 199, 0.862));
+    color: white;
+}
+
+.data {
+    float: left;
+    padding-right: 50px;
+}
+
+#cards-palestrantes {
+    justify-content: space-evenly;
+}
+
+.container-fluid {
+    background-color: #ffffff !important;
+}
+
+.card {
+    background-color: #784442;
+    border-radius: 20px;
+    box-shadow: 5px 5px 10px 0 rgba(0, 0, 0, 0.136);
+    color: white;
+    height: 60vh;
+    margin: 0 15px 15px 0;
+    width: 18vw;
+}
+
+.card-body {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.card-img-top {
+    height: 50% !important;
+    width: 100% !important;
+}
+
+.fonte-titulo {
+    font-weight: bold;
+}
+
+.card-text {
+    font-size: 17px;
+    margin: 0 10px 10px 10px;
+    text-align: justify;
+}
+
+.card-parceiros {
+    background-color: #784442;
+    border-radius: 20px;
+    box-shadow: 5px 5px 10px 0 rgba(0, 0, 0, 0.136);
+    color: white;
+    height: 30vh;
+    width: 15vw;
+}
+
+#fundo-parceiros {
+    align-items: center;
+    background-color: #784442;
+    border-radius: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    height: 20vh;
+    justify-content: space-evenly;
+    margin: auto;
+    margin-bottom: 20px;
+    margin-top: 20px;
+    text-align: center;
+    width: 80vw;
+}
+
+.img-parceiros {
+    border-radius: 10px;
+    text-align: center;
+}
+
+.card a {
+    color: white;
+    text-decoration: none;
+}
+
+.card > img {
+    border: none;
+    border-radius: 20px 20px 0px 0;
+    height: 250px;
+    object-fit: cover;
+    width: 100%;
+}
+
+.links {
+    align-items: center;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.links img {
+    height: 40px;
+    width: 40px;
+}
+
+footer p {
+    color: #784442 !important;
+    text-align: center;
+}
+
+@media (max-width: 768px) {
+    #img1 {
+        background-attachment: scroll;
+        background-image: url(../img/background.jpg);
+        background-position: center center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        height: 100vh;
+    }
+    #img1 h1 {
+        font-size: 3rem;
+        font-weight: 600;
+        margin-left: 5vw;
+        margin-top: 10vw;
+    }
+    #img1 p {
+        font-size: 1.3rem;
+        font-weight: 600;
+        margin-left: 5vw;
+    }
+    #sobre {
+        font-size: 1.2rem;
+        margin: auto !important;
+        width: auto !important;
+    }
+    #fundo-parceiros {
+        flex-direction: row;
+        height: 400px;
+        width: 90vw;
+    }
+    .card {
+        width: 80vw;
+    }
+    footer p {
+        color: #784442 !important;
+        font-size: 1.2rem;
+        text-align: center;
+    }
+}
+
+@media (max-width: 400px) {
+    #img1 h1 {
+        font-size: 2rem;
+        font-weight: 600;
+        margin-left: 5vw;
+        position: relative;
+        top: 50vh;
+    }
+    #img1 p {
+        font-size: 1.3rem;
+        font-weight: 600;
+        margin-left: 5vw;
+        position: relative;
+        top: 50vh;
+    }
+
+    .titulo-fundo-branco {
+        margin-top: 20% !important;
+    }
+}
+
+@media (max-height: 500px) {
+    #img1 h1 {
+        font-size: 2rem;
+        font-weight: 600;
+        margin-left: 5vw;
+        position: relative;
+        top: 40vh;
+    }
+    #img1 p {
+        font-size: 1.3rem;
+        font-weight: 600;
+        margin-left: 5vw;
+        position: relative;
+        top: 40vh;
+    }
+}
