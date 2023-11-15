@@ -161,13 +161,17 @@ li {
 }
 
 #programacao {
-    background-image: linear-gradient(rgba(25, 66, 154, 0.87), rgba(11, 83, 159, 0.676), rgba(121, 159, 199, 0.862));
-    color: white;
+    width: 80vw;
 }
 
 .data {
     float: left;
     padding-right: 50px;
+}
+
+#palestrantes {
+    color: #784442;
+    margin-left: 5vw;
 }
 
 #cards-palestrantes {
